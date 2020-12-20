@@ -2,6 +2,7 @@
 /*            Body & Typography                 */
 /* ============================================ */
 
+
 * {
 	margin: 0;
 	padding: 0;
@@ -18,4 +19,19 @@ body {
 
 li {
 	list-style-type: none;
+}
+
+span {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+}
+
+.flex-name {
+	@font-face {
+		font-family: 'Raleway Flex';
+		src: url('RalewayFlex-VF.woff2') format('woff2 supports variations'),
+		   url('RalewayFlex-VF.woff2') format('woff2-variations');
+		font-weight: 400 800;
+		font-stretch: 10%, 100%;
+	}	
 }
